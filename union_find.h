@@ -30,7 +30,7 @@ class Union_find {
         int find_rep(int item);
 
         /*
-         * Puts item1 and item2 in the same group
+         * Combines the groups represented by item1 and item2
          */
         void union_sets(int item1, int item2);
 
